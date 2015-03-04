@@ -1,0 +1,41 @@
+extends layout
+
+block header
+  script(src='/javascripts/index.js')
+  style(type='text/css').
+    table, th, td{border: 1px solid #AAA}
+    table {border-spacing: 0px}
+    th, td{padding: 5px 10px}
+    #timetag {background-color: #EEE}
+
+block content
+  h1 Server Information
+  table
+    thead
+      tr
+        th Name
+        th IP
+        th Port
+        th Password
+        th Method
+        th Last Inform
+    tbody
+      each info in servers
+        tr
+          td= info.name || '-'
+          td= info.ip || '-'
+          td= info.port || '-'
+          td= info.password || '-'
+          td= info.method || '-'
+          - var timeout = time - info.time
+          if timeout < 60
+            td(style={color:'green'}) Less than 1 minute
+          else if timeout < 300
+            td In #{Math.ceil(timeout / 60)} minutes
+          else
+            td(style={color:'gray'}) More than 5 minutes
+  if servers.length == 0
+    p(style={color:'red'}) No Server.
+  p This page acquired 
+    span#timetag
+    |  ago.

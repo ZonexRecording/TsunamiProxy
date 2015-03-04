@@ -1,0 +1,8 @@
+c:\users\xuhai\Documents\Visual Studio 2013\Projects\TsunamiProxy\ssserverKeeper\obj\Debug\ssserverKeeper.csprojResolveAssemblyReference.cache
+c:\users\xuhai\Documents\Visual Studio 2013\Projects\TsunamiProxy\ssserverKeeper\obj\Debug\ssserverKeeper.FormMain.resources
+c:\users\xuhai\Documents\Visual Studio 2013\Projects\TsunamiProxy\ssserverKeeper\obj\Debug\ssserverKeeper.Properties.Resources.resources
+c:\users\xuhai\Documents\Visual Studio 2013\Projects\TsunamiProxy\ssserverKeeper\obj\Debug\ssserverKeeper.csproj.GenerateResource.Cache
+c:\users\xuhai\Documents\Visual Studio 2013\Projects\TsunamiProxy\Debug\ssserverKeeper.exe
+c:\users\xuhai\Documents\Visual Studio 2013\Projects\TsunamiProxy\Debug\ssserverKeeper.pdb
+c:\users\xuhai\Documents\Visual Studio 2013\Projects\TsunamiProxy\ssserverKeeper\obj\Debug\ssserverKeeper.exe
+c:\users\xuhai\Documents\Visual Studio 2013\Projects\TsunamiProxy\ssserverKeeper\obj\Debug\ssserverKeeper.pdb

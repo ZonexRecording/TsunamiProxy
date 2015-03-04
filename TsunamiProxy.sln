@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ssserverKeeper", "ssserverKeeper\ssserverKeeper.csproj", "{41303D87-E403-4511-9BA7-82410A74718C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{E17DB714-D2A4-4D69-B363-BF1F3304256C}"
+	ProjectSection(SolutionItems) = preProject
+		Website\app.js = Website\app.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "routes", "routes", "{C7D231CA-F422-4330-88BD-99DDF689FA6E}"
+	ProjectSection(SolutionItems) = preProject
+		Website\routes\index.js = Website\routes\index.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "views", "views", "{F262133D-C57F-4078-A242-7F98F53A392D}"
+	ProjectSection(SolutionItems) = preProject
+		Website\views\error.jade = Website\views\error.jade
+		Website\views\index - 副本.jade = Website\views\index - 副本.jade
+		Website\views\index.jade = Website\views\index.jade
+		Website\views\layout.jade = Website\views\layout.jade
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41303D87-E403-4511-9BA7-82410A74718C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41303D87-E403-4511-9BA7-82410A74718C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41303D87-E403-4511-9BA7-82410A74718C}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{41303D87-E403-4511-9BA7-82410A74718C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{41303D87-E403-4511-9BA7-82410A74718C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{41303D87-E403-4511-9BA7-82410A74718C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41303D87-E403-4511-9BA7-82410A74718C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41303D87-E403-4511-9BA7-82410A74718C}.Release|ARM.ActiveCfg = Release|Any CPU
+		{41303D87-E403-4511-9BA7-82410A74718C}.Release|x64.ActiveCfg = Release|Any CPU
+		{41303D87-E403-4511-9BA7-82410A74718C}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7D231CA-F422-4330-88BD-99DDF689FA6E} = {E17DB714-D2A4-4D69-B363-BF1F3304256C}
+		{F262133D-C57F-4078-A242-7F98F53A392D} = {E17DB714-D2A4-4D69-B363-BF1F3304256C}
+	EndGlobalSection
+EndGlobal
